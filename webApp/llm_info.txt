@@ -1,0 +1,36 @@
+Model used - Llama-3.1-Nemotron-70B-Instruct by Nvidia
+
+Improved the Meta's Llama 3.1 to generate helpful and human like responses 
+
+Arena-Hard Score: Llama-3.1 - 51.6, Llama-3.1-Nemotron-70B-Instruct - 70.9
+
+What is Arena-Hard Score:
+It is an automatic evaluation tool for instruction-tuned LLMs.
+Key features of the Arena-Hard benchmark include: 
+- Reflects human preference in real-world use cases: The benchmark score has a high agreement with human preference. 
+- Robustly separates model capability: It can differentiate the capabilities of various models. 
+- Frequently updates to avoid over-fitting or test set leakage: It uses new, unseen prompts to ensure the benchmark remains challenging and relevant.
+
+Why Llama-3.1-Nemotron-70B-Instruct:
+- Reflects human preference in real-world use cases: The benchmark score has a high agreement with human preference. 
+- Best acc to foll comparisons
+
+source - https://developer.nvidia.com/blog/advancing-the-accuracy-efficiency-frontier-with-llama-3-1-nemotron-51b/
+
+	                                    Accuracy	            Efficiency
+ 	                                    MT Bench	MMLU	    Text generation (128/1024)	Summarization/ RAG (2048/128)
+Llama-3.1- Nemotron-51B- Instruct	    8.99	    80.2%	    6472	                    653
+Llama 3.1-70B- Instruct	                8.93	    81.66%	    2975	                    339
+Llama 3.1-70B- Instruct (single GPU)    —			—	        1274	                    301
+Llama 3-70B	                            8.94	    80.17%	    2975	                    339
+
+source - https://blog.getbind.co/2024/10/17/llama-3-1-nemotron-70b-is-it-better-for-coding-compared-to-gpt-4o-and-claude-3-5-sonnet/
+
+Model	                        Overall Score	Chat Score	Reasoning Score
+Llama 3.1 Nemotron-70B	        94.1	        97.5	    98.1
+Skywork-Reward-Gemma-2-27B	    93.8	        95.8	    96.1
+TextEval-Llama3.1-70B	        93.5	        94.1	    96.4
+GPT-4o	                        86.7	        96.1	    86.6
+
+MT - Bench --> Designed to test multi-turn conversation and instruction-following ability, covering common use cases and focusing on challenging questions to differentiate models.
+MMLU --> Massive Multitask Language Understanding: Aims to enhance how machines interpret and process human language significantly.

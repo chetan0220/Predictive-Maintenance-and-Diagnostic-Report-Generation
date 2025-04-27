@@ -1,0 +1,10 @@
+credentials:
+  usernames:
+    brian:
+      email: brian@gmail.com
+      name: Brian
+      password: brian
+cookie:
+  expiry_days: 0
+  key: "abcde"
+  name: "cookie"
