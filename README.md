@@ -12,7 +12,8 @@ FailGuard AI combines Machine Learning (ML) and Large Language Models (LLMs) to:
 - Classify the reason for failure (tool wear, overstrain, power, etc.).
 - Generate natural language diagnostic reports automatically for operators and engineers.
 
-It is designed to minimize downtime, prevent unexpected machine failures, and improve maintenance planning
+It is designed to minimize downtime, prevent unexpected machine failures, and improve maintenance planning. <br>
+**Dataset** --> [Click Here](https://www.kaggle.com/datasets/chetansmahale/balanced-predictive-maintenance-dataset/data)
 
 ---
 
